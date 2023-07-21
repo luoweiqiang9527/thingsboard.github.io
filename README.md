@@ -1,14 +1,8 @@
-## Instructions for Contributing to the Docs/Website
 
-* [Fork this repository](https://help.github.com/articles/fork-a-repo/)
-* [Deploy the site locally](#deployment-of-the-site-locally)
-* [Deploy the site in docker](#deployment-of-the-site-in-docker)
-* Add your changes
-* [Generate image preview](#image-preview-generator)
-* [Create Pull Request](https://help.github.com/articles/creating-a-pull-request/)
-
-## Deployment of the site locally
-
+## Deployment of the site locally(本地部署：ruby+Jekyll)
+	bundle install
+	bundle exec jekyll serve --host 0.0.0.0
+ 
 The below commands set up your environment for running GitHub pages locally. 
 Any edits you make will be viewable on a lightweight webserver that runs on your local machine.
 
@@ -104,7 +98,7 @@ docker compose up
 In about 2 minutes (depending on PC performance), your copy of the site will be available for viewing at http://localhost:4000
 
 
-## Image preview generator
+## Image preview generator（生成预览图）
 
 For new *.png images preview is required along with original images.
 
